@@ -13,12 +13,12 @@ p{
 }
 
 img{
-	width:365px;
-	height:250px;
+	width:385px;
+	height:230px;
 }
 
 img:hover{
-	width:362px;
+	width:383px;
 	cursor:pointer;
 	border-radius:8px;
 	transition:all .4s;

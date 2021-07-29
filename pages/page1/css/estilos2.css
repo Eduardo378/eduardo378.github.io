@@ -1,0 +1,99 @@
+body{ /*aprender el display flex y practicarlo para posision desing*/
+	background:url(../assets/bg1.png);
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;  
+} 
+/*-----------Se le tiene que agregar el Responsive Design (Css Grid ) para que Pueda ser adaptable a dispositivos--------*/
+
+.contenedor{ /*se quito position relative*/
+	background:#1A1E21;
+	max-width:455px;
+	height:600px;
+	top:50%;
+	bottom:0;
+	right:0;
+	left:50%;
+	border-radius:15px; 
+	position:absolute;  
+	transform:translate(-50%, -50%);
+}
+
+svg{
+	width:220px;
+}
+
+/*se le quitó la propiedad border-radius porque se editó la foto, cuando se haga otra foto se modifica con el borde, 
+(contenedor) width*/
+.logo{
+	width:100%;
+	position:relative;
+	top:5%;
+	bottom:0;
+	right:0;
+	left:0;
+	height:auto;
+	justify-content:center;
+	display:flex;
+}
+
+/*el dialogo se le estará presentando para qué es la página (texto de bienvenida) siempre estará arriba de iniciar sesion
+y registrarse*/
+.dialogo{
+	background:#323941;
+	text-align:center;
+	width:375px;
+	height:150px;
+	color:#fff;
+	font-size:18px;
+	padding:20px;
+	line-height:28px;
+	position:relative;
+	top:80px;
+	bottom:0;
+	left:22.5px;
+	right:0;
+	border-radius:15px;
+}
+/*--------------boton para iniciar sesion--------------*/
+.boton{
+	background:#3860EC;
+	width:415px;
+	padding:15.5px;
+	color:#fff;
+	border:none;
+	border-radius:7px;
+	position:relative;
+	top:110px;
+	bottom:0;
+	left:22.5px;
+	right:0;
+	cursor:pointer;
+	text-transform:uppercase;
+	transition:.3s ease all;
+}
+
+.boton:hover{
+	background:#2247ce;
+}
+/*boton para registarse*/
+.enlace{
+	position:relative;
+	top:135px;
+	bottom:0;
+	left:189px;
+	right:0;
+	text-transform:uppercase;
+	text-decoration: none;
+	color:#D4D4D4;
+}
+
+.enlace:hover{
+	text-decoration:underline;
+}
+
+/*los botones se les estará redireccionando a una pagina nueva, pero para que se pueda realizar esta acción se estará 
+aplicando funciones, y las funciones se tienen que hacer mediante JS con la propiedad "onclick"*/
