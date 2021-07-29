@@ -1,0 +1,53 @@
+body{
+	font-size:20px;
+	background:#ADA29F;
+}
+/*encabezado de los tres pilares de la web, se le a agregado un borde pero no se puede aplacar en tamaño del borde */
+h1{
+	text-align:center;
+	border:solid;
+	border-color:#1D1A18;
+	border-radius:5px;
+	color:#272323;  
+}
+/*son titulos de significado (3)*/
+h2{
+	color:black;
+	font-size:30px;
+	border:solid;
+	border-radius:5px;
+	width:93px;
+}
+
+p{	
+	color:black;
+	text-align:auto;
+}
+/*Sidebar Publicitario donde se ubica la foto de joelsy...*/
+aside{
+	width:250px;
+	height:635px;
+	text-align:center;
+	display:inline-block;
+	background-image:url(imagenes/logo.jpg);
+	background-attachment:scroll;
+	border:solid 5px;
+	border-color:#373330;
+	border-radius:15px;
+	float:right;
+	color:#FDFEFE;
+}
+
+.cajaPadre{
+	background:#403D3C;
+	width:80%;
+	height:100%;
+	position:relative;
+	border-radius:10px;
+	margin:1px;
+	padding:2.5px;
+}
+
+.enlace{
+	color:#9A9694;
+}

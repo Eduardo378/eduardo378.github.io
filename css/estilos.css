@@ -1,0 +1,46 @@
+body{
+	background:#252528;
+	color:rgba(254,254,254,.9);
+}
+
+h1{
+	text-align:center;
+}
+
+p{
+	font-size:18px;
+	text-align:center;
+}
+
+img{
+	width:365px;
+	height:250px;
+}
+
+img:hover{
+	width:362px;
+	cursor:pointer;
+	border-radius:8px;
+	transition:all .4s;
+}
+
+div{
+	width:235px;
+	margin-left:1em;
+}
+
+.Prepo{
+	margin-left:125px;
+}
+
+.Crepo{
+	margin-left:155px;
+}
+
+.menu{
+	list-style:none;
+}
+
+.repo1:hover{
+	color:#A49F9E;
+}
