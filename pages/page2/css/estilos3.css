@@ -6,12 +6,20 @@ body{
 }
 
 svg{
-	position:relative;
-	width:145px;
-	top:85px;
-	left:44.3%;
+	width:150px;
 }
 
+.logo{
+	width:100%;
+	position:relative;
+	top:-17%;
+	bottom:0;
+	right:0;
+	left:0;
+	height:auto;
+	justify-content:center;
+	display:flex;
+}
 .container{
 	background:#2570A0;
 	width:320px;
@@ -26,7 +34,7 @@ svg{
 
 .formularios{
 	position:relative;
-	top:95px;
+	top:-45px;
 }
 
 .container label{
